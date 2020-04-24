@@ -135,8 +135,8 @@ The software interprets the binary data and converts .txt files this way:
 | Adenine 		| 00 	| 00 	|
 | Cytosine 		| 10 	| 10 	|
 | Guanine 		| 11 	| 11 	|
-| Thymine 		| 01 	| 01 	|
-| Uracil 		| 01 	| 01 	|
+| Thymine 		| 01 	| N/A 	|
+| Uracil 		| N/A 	| 01 	|
 
 # Additional information
 
