@@ -111,7 +111,7 @@ When the software isn't able to detect your file or the file has invalid length 
 The software couldn't open the file. This might be caused by the file not being in the software directory.
 
 ## ERR 01
-The file is too short to be valid. It doesn't include the character, which informs the software about This error only applies to the compressed files such as .dna and .rna. The solution to this error is converting the .txt file one more time. Don't edit the output file!
+The file is too short to be valid. It doesn't include the character, which informs the software about the amount of nucleobases in the last byte. This error only applies to the compressed files such as .dna and .rna. The solution to this error is converting the .txt file one more time. Don't edit the output file!
 
 ## ERR 02
 First character is invalid. The reason is that the first character in the file is neither 1, 2, 3 nor 4. This error applies only to the compressed files such as .dna and .rna. The solution to this error is converting the .txt file one more time. Don't edit the output file!
