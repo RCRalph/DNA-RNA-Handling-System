@@ -2,7 +2,7 @@
 This software allows compressing DNA and RNA contenting text files (4 times more effective space usage), creating complementary copies of the DNA / RNA and translating the RNA files into amino acid names, short-names and symbols. The software can only be used on Windows.
 
 # Hardware specifications
-This software can run on Windows only. It requires Python 3.5+. You also need the **msvcrt** and **multiprocessing** python package. To install it, run `pip install msvcrt` and `pip install multiprocessing` in your command line.
+This software can run on Windows only. It requires Python 3.5+. You also need the **msvcrt** and **multiprocessing** python packages. To install it, run `pip install msvcrt` and `pip install multiprocessing` in your command line.
 
 # Welcome screen
 On the start of using the software you will see this screen:\
@@ -141,7 +141,7 @@ The software interprets the binary data and converts .txt files this way:
 # Additional information
 
 ## Randomly generated file
-The repository includes a randomly-generated 1024 character long DNA formatted .txt file.
+The repository includes a randomly-generated 1024 character long DNA formatted .txt file called **Example DNA.txt**.
 
 ## Live file size monitor
 The repository includes the <b>Life file size.py</b> python script, which allows you to monitor the file size in real time. The only thing you have to do is enter the file name with its extension.
