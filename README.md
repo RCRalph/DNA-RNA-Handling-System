@@ -118,68 +118,25 @@ First character is invalid. The reason is that the first character in the file i
 
 ## ERR 03
 Invalid character that doesn't represent any nitrogenous bases. This means that your DNA or RNA formatted .txt file contents at least one character outside of the set:
-<table>
-	<tr>
-		<th>Nucleobase</th>
-		<th>DNA</th>
-		<th>RNA</th>
-	<tr>
-	<tr>
-		<td style="text-align: center">Adenine</td>
-		<td colspan="2" style="text-align: center">✓</td>
-	</tr>
-	<tr>
-		<td style="text-align: center">Cytosine</td>
-		<td colspan="2" style="text-align: center">✓</td>
-	</tr>
-	<tr>
-		<td style="text-align: center">Guanine</td>
-		<td colspan="2" style="text-align: center">✓</td>
-	</tr>
-	<tr>
-		<td style="text-align: center">Thymine</td>
-		<td style="text-align: center">✓</td>
-		<td style="text-align: center">✗</td>
-	</tr>
-	<tr>
-		<td style="text-align: center">Uracil</td>
-		<td style="text-align: center">✗</td>
-		<td style="text-align: center">✓</td>
-	</tr>
-	
-</table>
+
+| Nucleobase 	| DNA 	| RNA 	|
+| :-----------:	| :---:	| :---:	|
+| Adenine 		| ✓ 	| ✓ 	|
+| Cytosine 		| ✓ 	| ✓ 	|
+| Guanine 		| ✓ 	| ✓ 	|
+| Thymine 		| ✓ 	| ✗ 	|
+| Uracil 		| ✗ 	| ✓ 	|
 
 # Format
 The software interprets the binary data and converts .txt files this way:
-<table>
-	<tr>
-		<th>Nucleobase</th>
-		<th>DNA</th>
-		<th>RNA</th>
-	<tr>
-	<tr>
-		<td style="text-align: center">Adenine</td>
-		<td colspan="2" style="text-align: center">00</td>
-	</tr>
-	<tr>
-		<td style="text-align: center">Cytosine</td>
-		<td colspan="2" style="text-align: center">10</td>
-	</tr>
-	<tr>
-		<td style="text-align: center">Guanine</td>
-		<td colspan="2" style="text-align: center">11</td>
-	</tr>
-	<tr>
-		<td style="text-align: center">Thymine</td>
-		<td style="text-align: center">01</td>
-		<td style="text-align: center">N/A</td>
-	</tr>
-	<tr>
-		<td style="text-align: center">Uracil</td>
-		<td style="text-align: center">N/A</td>
-		<td style="text-align: center">01</td>
-	</tr>	
-</table>
+
+| Nucleobase 	| DNA 	| RNA 	|
+| :-----------:	| :---:	| :---:	|
+| Adenine 		| 00 	| 00 	|
+| Cytosine 		| 10 	| 10 	|
+| Guanine 		| 11 	| 11 	|
+| Thymine 		| 01 	| 01 	|
+| Uracil 		| 01 	| 01 	|
 
 # Additional information
 
