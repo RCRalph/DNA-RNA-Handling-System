@@ -125,26 +125,26 @@ Invalid character that doesn't represent any nitrogenous bases. This means that 
 		<th>RNA</th>
 	<tr>
 	<tr>
-		<td>Adenine</td>
-		<td colspan="2">✓</td>
+		<td style="text-align: center">Adenine</td>
+		<td colspan="2" style="text-align: center">✓</td>
 	</tr>
 	<tr>
-		<td>Cytosine</td>
-		<td colspan="2">✓</td>
+		<td style="text-align: center">Cytosine</td>
+		<td colspan="2" style="text-align: center">✓</td>
 	</tr>
 	<tr>
-		<td>Guanine</td>
-		<td colspan="2">✓</td>
+		<td style="text-align: center">Guanine</td>
+		<td colspan="2" style="text-align: center">✓</td>
 	</tr>
 	<tr>
-		<td>Thymine</td>
-		<td>✓</td>
-		<td>✗</td>
+		<td style="text-align: center">Thymine</td>
+		<td style="text-align: center">✓</td>
+		<td style="text-align: center">✗</td>
 	</tr>
 	<tr>
-		<td>Uracil</td>
-		<td>✗</td>
-		<td>✓</td>
+		<td style="text-align: center">Uracil</td>
+		<td style="text-align: center">✗</td>
+		<td style="text-align: center">✓</td>
 	</tr>
 	
 </table>
@@ -158,26 +158,26 @@ The software interprets the binary data and converts .txt files this way:
 		<th>RNA</th>
 	<tr>
 	<tr>
-		<td>Adenine</td>
-		<td colspan="2">00</td>
+		<td style="text-align: center">Adenine</td>
+		<td colspan="2" style="text-align: center">00</td>
 	</tr>
 	<tr>
-		<td>Cytosine</td>
-		<td colspan="2">10</td>
+		<td style="text-align: center">Cytosine</td>
+		<td colspan="2" style="text-align: center">10</td>
 	</tr>
 	<tr>
-		<td>Guanine</td>
-		<td colspan="2">11</td>
+		<td style="text-align: center">Guanine</td>
+		<td colspan="2" style="text-align: center">11</td>
 	</tr>
 	<tr>
-		<td>Thymine</td>
-		<td>01</td>
-		<td>N/A</td>
+		<td style="text-align: center">Thymine</td>
+		<td style="text-align: center">01</td>
+		<td style="text-align: center">N/A</td>
 	</tr>
 	<tr>
-		<td>Uracil</td>
-		<td>N/A</td>
-		<td>01</td>
+		<td style="text-align: center">Uracil</td>
+		<td style="text-align: center">N/A</td>
+		<td style="text-align: center">01</td>
 	</tr>	
 </table>
 
